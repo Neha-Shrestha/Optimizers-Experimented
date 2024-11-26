@@ -1,9 +1,10 @@
-Explored various Optimization algorithms and LR Scheduler
+### Explored various Optimization algorithms and LR Scheduler
+
     1. Stochastic Gradient Descent (SGD)
     2. Adaptive Gradient Algorithm (Adagrad)
     3. Adam (Adaptive Moment Estimation)
 
-Analysis: 
+## Analysis: 
 When using SGD, an accuracy of 93.13% is obtained. After changing the optimizer from SGD 
 to Adam the accuracy increases from 93.13% to 94.12% (2% increase) and then to 96.53% 
 accuracy when switching to Adagrad. Same goes for the loss i.e. it decreases from optimizer 
